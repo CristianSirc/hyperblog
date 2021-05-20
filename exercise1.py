@@ -352,7 +352,7 @@ while contador_ext<5:
 #Esta es una nueva linea agregada con el fin de visualizar otras ramas
 #Se trata de simples comentarios en python
 
-
+#Biseccion
 objetivo = int(input("Escoge un numero: "))
 epsilon = 0.01
 bajo = 0.0
@@ -385,3 +385,19 @@ if abs(respuesta**2 - objetivo) >= epsilon:
     print(f'No se encontro la raiz cuadrada de {objetivo}')
 else:
     print(f'La raiz cuadrada de {objetivo} es {respuesta}')
+
+#Enumeracion exhaustiva
+#Saber si un numero tiene raiz cuadrada exacta
+objetivo = int(input('Escoge un entero: '))
+respuesta = 0
+
+while respuesta**2 < objetivo:
+    print(respuesta)
+    respuesta += 1
+
+if respuesta**2 == objetivo:
+    print(f'La raiz cuadrada de {objetivo} es {respuesta}')
+else:
+    print(f'{objetivo} no tiene una raiz cuadrada exacta')
+
+#Diferencia entre la realidad y la aproximacion es epsilon
