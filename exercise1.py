@@ -353,7 +353,6 @@ while contador_ext<5:
 #Se trata de simples comentarios en python
 
 multiplicacion = lambda x,y: x*y
-print(multiplicacion(2,4))
 
 suma = lambda x,y: x+y
 
