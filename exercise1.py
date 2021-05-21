@@ -355,6 +355,8 @@ while contador_ext<5:
 multiplicacion = lambda x,y: x*y
 print(multiplicacion(2,4))
 
+suma = lambda x,y: x+y
+
 
 def exhaustive(objetivo):
     respuesta = 0
