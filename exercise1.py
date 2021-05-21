@@ -352,6 +352,8 @@ while contador_ext<5:
 #Esta es una nueva linea agregada con el fin de visualizar otras ramas
 #Se trata de simples comentarios en python
 
+multiplicacion = lambda x,y: x*y
+print(multiplicacion(2,4))
 
 
 def exhaustive(objetivo):
