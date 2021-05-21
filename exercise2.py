@@ -36,3 +36,19 @@ lista = values.split(",")
 tupla = tuple(lista)
 print(lista)
 print(tupla)
+
+
+x=int(input("Ingrese el primer numero: "))
+y=int(input("Ingrese el segundo numero: "))
+
+mcd,mcm = mcd_mcm(x,y)
+print("El máximo común divisor es: ",mcd)
+print("El mínimio común multiplo es: ",mcm)
+
+
+values = input("Ingrese la secuencia: ")
+lista = values.split(",")
+tupla = tuple(lista)
+print(lista)
+print(tupla)
+
