@@ -33,9 +33,6 @@ print("El mínimio común multiplo es: ",mcm)
 
 values = input("Ingrese la secuencia: ")
 lista = values.split(",")
-tupla = tuple(lista)
-print(lista)
-print(tupla)
 
 
 x=int(input("Ingrese el primer numero: "))
